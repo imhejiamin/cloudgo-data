@@ -53,6 +53,12 @@
 
 4、进行ab压力测试
 
+通过ab压力测试显示出来的结果是：使用 xorm 性能比使用 database/sql 时间开销要大得多，参考博客提到，orm 是用的反射技术、牺牲性能获得易用性。
+
 ![5](https://github.com/imhejiamin/cloudgo-data/blob/master/test_pic/ab1.png)
 
 ![6](https://github.com/imhejiamin/cloudgo-data/blob/master/test_pic/ab2.png)
+
+
+5、orm 实现了 dao 的自动化。过课件博客内容可以知道，orm 是用的反射技术、牺牲性能获得易用性。如果你做面向程序猿的系统应用而不是面向客户的应用，database/sql 是你的第一选择；相反，orm 可以让你获得开发效率，orm 使得你不需要编写 dao 服务。
+
