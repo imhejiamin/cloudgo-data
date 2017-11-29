@@ -8,17 +8,7 @@ var UserInfoService = UserInfoAtomicService{}
 
 // Save .
 func (*UserInfoAtomicService) Save(u *UserInfo) error {
-    //tx, err := mydb.Begin()
-    //checkErr(err)
 
-    //dao := userInfoDao{tx}
-    //err = dao.Save(u)
-
-    /*if err == nil {
-        tx.Commit()
-    } else {
-        tx.Rollback()
-    }*/
     var user UserInfo
     counts, err := engine.Count(&user)
     checkErr(err)
