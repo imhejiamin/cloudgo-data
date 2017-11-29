@@ -28,7 +28,7 @@
 
 课件和参考：http://blog.csdn.net/pmlpml/article/details/78602290
 
-参考代码：http://github.com/pmlpml/golang-learning/web/cloudgo-data
+参考代码：https://github.com/pmlpml/golang-learning/tree/master/web/cloudgo-data
 
 
 
